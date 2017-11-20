@@ -8,3 +8,7 @@
 	Tech. specs (explanation of design and tecnical choices that were made)
 3. Presentation: 15-20min
 	    Q&A: 10min
+
+Programming 
+	Add Bootstrap CDN
+	Create a header with rolled banner
