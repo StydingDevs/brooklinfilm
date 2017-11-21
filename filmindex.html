@@ -3,17 +3,50 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Site description here  100-140 symbols. -->
-	<meta name="description" content="Brooklin Outdoor Film Festival from August 5th to 8th at Brooklyn Bridge Park">
+	<!-- Site description here  100-140 symbols. 65+ 40more -->
+	<meta name="description" content="Brooklin Outdoor Film Festival from August 5th to 8th at Brooklyn Bridge Park. From 6pm to midnight.
+ 									We discover awesome films! Absolutely Free for First 5000.">
     <meta name="author" content="Sergey Uskov">
-    <!-- TODO . Make CDN Bootstrap-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Brooklin Outdoor Film Festival</title>
+    <!-- TODO . Make CDN Bootstrap.  -- DONE -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- TODO . ADD FAVICON CDN   -- DONE-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <!-- To load JavaScript asynchronously /async /defer for full load-->
+	<script src="script.js" defer></script>
 </head>
 <body>
 <!-- TODO#2 Create a header with rolled banner -->
+	<header id="header" role="banner">
+		<!-- Main navigation block-->
+		<div class="main-nav">
+			<div class="container">
+				<div class="header-top">
+					<!-- TODOS#3 : Add SM Media Buttons -->
+					<div class="pull-right social-icons">
+						<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="navbar navbar-inverse"></div>					
+				</div>
+			</div>
+		</div>	
+	</header>
+	<section id="timing">
+		<div class="container"></div>	
+	</section>
+	<section id="participants"></section>
+	<section id="about"></section>
+	<section id="sponsors"></section> <!-- IF does it need. To thank sponsors -->
+	<section id="contact"></section>
+	<footer id="footer"></footer>
 	
 </body>
+	
 </html>
