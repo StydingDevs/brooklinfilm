@@ -1,6 +1,62 @@
 @charset "utf-8";
 /* CSS Document */
-#timing{
-	padding-top: 130px;
+body{
+	color: #fff;
 }
 
+/*************************
+*******Timing CSS******
+**************************/
+#timing{
+	background-color: #C34C39;
+	background-image: url("file:///E:/MyEducation/Git/projects/brooklynfilmfest/images/timing/event-bg.jpg");
+	background-position: center bottom; /* ALLIGN */
+	background-size: contain; /* SCALE IMAGE TO FIT INSIDE PARENT BLOCK */
+	background-repeat:no-repeat; /* NO REPEAT */ 
+	position: relative;
+	overflow: hidden; /* Свойство overflow управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров./
+						Отображается только область внутри элемента, остальное будет скрыто.*/
+	padding: 130px 0 100px;
+	text-align: center;
+	text-transform: uppercase; /* to transvorm the text to UPPERCASE */
+}
+
+.watch {
+  position: absolute;
+  left: 0;
+  top: 7%;
+}
+
+#timing h2 {
+  font-size: 42px;
+  }
+
+#countdown{
+	display: block;
+	overflow: hidden;
+	padding: 0;
+}
+
+#countdown li {
+  list-style: none;
+  display:inline-block; /* display as a block inline */
+  margin-right: 40px;
+  font-size: 18px;
+  position: relative;
+}
+
+#countdown li:last-child {
+	margin-right: 0 /* move to the right */
+}
+
+#countdown li span {
+  display: block;
+  font-size: 40px;
+  font-weight: 700; /* thicker font */
+  height: 82px; /* block height */
+  line-height: 79px; /* aproximate vertical center */
+  width: 75px;
+  border-radius: 10px;
+  border-right: 1px solid #9e3e2e;
+  border-bottom: 1px solid #9e3e2e;
+}
