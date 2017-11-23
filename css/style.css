@@ -40,7 +40,7 @@ body{
 #countdown li {
   list-style: none;
   display:inline-block; /* display as a block inline */
-  margin-right: 40px;
+  margin-right: 40px; /* margin between buttons */
   font-size: 18px;
   position: relative;
 }
@@ -59,4 +59,50 @@ body{
   border-radius: 10px;
   border-right: 1px solid #9e3e2e;
   border-bottom: 1px solid #9e3e2e;
+}
+
+/******* Buttons *******/
+
+#countdown li .days {
+  background-color: #45b29d;
+  border-top: 1px solid #6ac1b1;
+  border-left: 1px solid #6ac1b1;
+}
+
+#countdown li .hours {
+  background-color: #efc94c; 
+  border-top: 1px solid #f2d470;
+  border-left: 1px solid #f2d470;
+}
+
+#countdown li .minutes {
+  background-color: #e27a3f;
+  border-top: 1px solid #e89565;
+  border-left: 1px solid #e89565;
+}
+
+#countdown li .seconds {
+  background-color: #df5a49;
+  border-top: 1px solid #e57b6d;
+  border-left: 1px solid #e57b6d;
+}
+
+#countdown li:before {
+  background-color: #FFFFFF;
+  content: "";
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 36px;
+  width: 1px;
+}
+
+#countdown li:after {
+  background-color: #FFFFFF;
+  content: "";
+  height: 11px;
+  right:0;
+  position: absolute;
+  top: 36px;
+  width: 1px;
 }
