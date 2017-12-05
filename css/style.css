@@ -1,108 +1,100 @@
-@charset "utf-8";
-/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+
+/**  Basic Page CSS **/
 body{
-	color: #fff;
-}
-
-/*************************
-*******Timing CSS******
-**************************/
-#timing{
-	background-color: #C34C39;
-	background-image: url("file:///E:/MyEducation/Git/projects/brooklynfilmfest/images/timing/event-bg.jpg");
-	background-position: center bottom; /* ALLIGN */
-	background-size: contain; /* SCALE IMAGE TO FIT INSIDE PARENT BLOCK */
-	background-repeat:no-repeat; /* NO REPEAT */ 
-	position: relative;
-	overflow: hidden; /* Свойство overflow управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров./
-						Отображается только область внутри элемента, остальное будет скрыто.*/
-	padding: 130px 0 100px;
-	text-align: center;
-	text-transform: uppercase; /* to transvorm the text to UPPERCASE */
-}
-
-.watch {
-  position: absolute;
-  left: 0;
-  top: 7%;
-}
-
-#timing h2 {
-  font-size: 42px;
-  }
-
-#countdown{
-	display: block;
-	overflow: hidden;
-	padding: 0;
-}
-
-#countdown li {
-  list-style: none;
-  display:inline-block; /* display as a block inline */
-  margin-right: 40px; /* margin between buttons */
-  font-size: 18px;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
   position: relative;
 }
 
-#countdown li:last-child {
-	margin-right: 0 /* move to the right */
+#myCarousel .carousel-item img {
+	width: 100%;
+	height: 100%;
 }
 
-#countdown li span {
-  display: block;
-  font-size: 40px;
-  font-weight: 700; /* thicker font */
-  height: 82px; /* block height */
-  line-height: 79px; /* aproximate vertical center */
-  width: 75px;
-  border-radius: 10px;
-  border-right: 1px solid #9e3e2e;
-  border-bottom: 1px solid #9e3e2e;
+/** Navigation **/
+
+
+
+/**  Page -- About **/
+#about {
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+  border-top: 20px solid rgba(238, 200, 86, .5);
+}
+#about h3{
+	padding-top: 20px;
+	margin-bottom: 20px;
 }
 
-/******* Buttons *******/
-
-#countdown li .days {
-  background-color: #45b29d;
-  border-top: 1px solid #6ac1b1;
-  border-left: 1px solid #6ac1b1;
+#about p {
+	padding: 0 50px 10px 50px;
+	margin-bottom: 20px;
+	
 }
 
-#countdown li .hours {
-  background-color: #efc94c; 
-  border-top: 1px solid #f2d470;
-  border-left: 1px solid #f2d470;
+/**  Page -- Schedule **/
+#schedule{
+	background-color: #E0E0E0;
+	padding-top: 20px;
+	margin-bottom: 20px;
 }
 
-#countdown li .minutes {
-  background-color: #e27a3f;
-  border-top: 1px solid #e89565;
-  border-left: 1px solid #e89565;
+#schedule p.filmDate{
+	font-size: 1.4em;
+	padding-left: 80px;
 }
 
-#countdown li .seconds {
-  background-color: #df5a49;
-  border-top: 1px solid #e57b6d;
-  border-left: 1px solid #e57b6d;
+#schedule .row{
+	border: 1px solid grey;
+	margin-left: 50px;
+}
+ 
+#schedule h3{
+	padding-top: 20px;
+	color: #E4191C;
 }
 
-#countdown li:before {
-  background-color: #FFFFFF;
-  content: "";
-  height: 11px;
-  left: 0;
-  position: absolute;
-  top: 36px;
-  width: 1px;
+#schedule .filmStart{
+	font-size: 1.4em
 }
 
-#countdown li:after {
-  background-color: #FFFFFF;
-  content: "";
-  height: 11px;
-  right:0;
-  position: absolute;
-  top: 36px;
-  width: 1px;
+#schedule p{
+	font-size: .8em;
+	padding-left: 50px;
+}
+#schedule img.img-fluid{
+	vertical-align: middle;
+}
+
+.filmDescription{
+	font-size: 0.5em;
+}
+
+/**  Page -- News **/
+
+/**  Page -- Registration Form **/
+#regContainer {
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
+}
+
+/**  Page -- Venue **/
+#map {
+	 height: 400px;
+       width: 100%;
+}
+
+/**  Footer **/
+
+footer {
+  background: #586D74;
+  color: white;
+  font-size: .8em;
+  padding: 20px 0 40px 0;
+}
+
+footer a {
+  color: #E0E6AE;
 }
