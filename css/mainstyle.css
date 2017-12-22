@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+
+/**  Basic Page CSS **/
+body{
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  position: relative;
+}
+#myCarousel .carousel-item img {
+	width: 100%;
+	height: 100%;
+}
+
+i.fa{
+	padding-right: 3px
+}
+
+/**  Page -- About **/
+#about {
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+  border-top: 20px solid rgba(238, 200, 86, .5);
+}
+#about h3{
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+#about p {
+	padding: 0 50px 10px 50px;
+	margin-bottom: 20px;
+}
+
+
+/**  Page -- Schedule **/
+#schedule{
+	background-color: #EBEBEB;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+#schedule p.filmDate{
+	font-size: 1.4em;
+	padding-left: 80px;
+	padding-top: 20px;
+}
+
+#schedule .row{
+	border: 1px solid grey;
+	margin-left: 50px;
+}
+
+.filmDate{
+	font-weight: 400;
+}
+
+#schedule h3{
+	padding-top: 20px;
+	color: #E4191C;
+}
+
+#schedule .filmStart{
+	font-size: 1.4em
+}
+
+#schedule p{
+	font-size: .8em;
+	padding-left: 50px;
+}
+#schedule img.img-fluid{
+	vertical-align: middle;
+	padding-bottom: 15px
+}
+
+.filmDescription{
+	font-size: 0.5em;
+}
+
+/**  Page -- News **/
+h5{
+		padding: 5px 10px 5px 10px;
+	}
+.newsDescription{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.news-wrap {
+	border : 1px solid #9B9B9B;
+}
+
+
+.img-news {
+	padding-top: 10px;
+}
+
+/**  Page -- Registration Form **/
+#regContainer {
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
+  margin-bottom: 20px;
+}
+#regContainer h2{
+	padding-top: 20px;
+}
+
+/**  Page -- Venue **/
+#map {
+	 height: 400px;
+       width: 100%;
+}
+
+/**  Footer **/
+
+footer {
+  background: #586D74;
+  color: white;
+  font-size: .8em;
+  padding: 20px 0 40px 0;
+}
+
+footer a {
+  color: #E0E6AE;
+}
+
+/** Media Queries **/
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575px) {
+	.carousel-caption{
+		display:none;
+	}
+	p.newsDescription {
+		padding-top: 20px;
+	}
+	p.newsDescription span {
+		font-size: 1.1em;
+		font-weight: 400;
+	}
+	.news-wrap{
+	border: 2px solid #595959;
+	}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) { ... }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) { ... }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) { ... }
