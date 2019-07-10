@@ -7,6 +7,7 @@
 	Goals
 	Budget
 	Timeline
+	Tech. specs (explanation of design and tecnical choices that were made)
 	
 Tech. specs (explanation of design and tecnical choices that were made)
 3. Presentation: 15-20min
@@ -14,20 +15,7 @@ Tech. specs (explanation of design and tecnical choices that were made)
 	    Q&A: 10min
 
 Programming 
-
 		Add Bootstrap CDN
-
-		Create a header with rolled banner
+		Create a header with rolled banner (accardeon)
 =======
-1.
-		Website prototype
-2. Project brief with following elements:
-	Summary
-	Stakeholders
-	Goals
-	Budget
-	Timeline
-	Tech. specs (explanation of design and tecnical choices that were made)
-3. Presentation: 15-20min
-	    Q&A: 10min
->>>>>>> 673dc6dce4265b98fff60b2d8a7a4dae0474ffcf
+
